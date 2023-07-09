@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Text&display=swap" rel="stylesheet">
+  <script src="./scripts/script.js" defer type="module" ></script>
+	<link rel="stylesheet" href="./styles/style.css" />
+  <title>Morse Code Translator</title>
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title">Morse Code Translator</h1>
+  </header>
+  <div class="translator">
+    <div class="translator__input">
+      <label for="textInput" class="translator__label"> English text or Morse Code</label>
+      <textarea id="textInput" class="translator__textarea" placeholder="Enter your text here" ></textarea>
+    </div>
+    <div class="translator__output">
+      <label for="translatedText" class="translator__label">Translation</label>
+      <textarea id="translatedText" class="translator__textarea" placeholder="Translation will appear here" readonly></textarea>
+    </div>  
+  </div>
+  <div class="transbtns">
+    <button id="translateBtn" class="transbtns__button">Translate</button>
+    <button id="clearBtn" class="transbtns__button">Clear</button>   
+  </div>
+ 
+</body>
+</html>
