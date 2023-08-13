@@ -15,3 +15,6 @@ A web page morse code translator build around TDD which translates english text 
 - SCSS
 - JavaScript
 - Jest (for testing)
+
+
+### 🚀 [Launch Live Project](https://morse-english-translator.netlify.app/)

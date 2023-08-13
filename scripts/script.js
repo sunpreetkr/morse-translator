@@ -7,7 +7,7 @@ const translateBtn = document.getElementById('translateBtn');
 translateBtn.addEventListener('click', () => {
 	const inputText = document.getElementById('textInput').value;
   const resultTextArea = document.getElementById('translatedText'); 
-  if (inputText.startsWith('.') || inputText.startsWith('-')|| inputText.startsWith(' ')) {
+  if (inputText.startsWith('.') || inputText.startsWith('-')) {
     // Morse Code to English translation
     if (inputText.match(/[^.\s-/]/)) {
       // Alert for invalid characters 
